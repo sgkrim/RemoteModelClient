@@ -19,7 +19,7 @@ class RemoteModel
 
     function __construct(){
 
-        $this->table = Helper::getTableName(get_class($this));
+        $this->table = $this->table??Helper::getTableName(get_class($this));
 
     }
 
