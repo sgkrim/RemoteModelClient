@@ -11,12 +11,20 @@ class ComposerStaticInitd6c7a97083ea8869998dac03d96b7a40
         array (
             'Sgkrim37\\RemouteModelClient\\' => 28,
         ),
+        'D' => 
+        array (
+            'Doctrine\\Inflector\\' => 19,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Sgkrim37\\RemouteModelClient\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Doctrine\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
         ),
     );
 
