@@ -1,5 +1,6 @@
 {
     "name": "sgkrim37/remoute-model-client",
+    "version": "v0.1",
     "description": "Simple remote eloquent model client",
     "license": "MIT",
     "autoload": {
