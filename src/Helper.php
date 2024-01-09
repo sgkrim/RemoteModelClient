@@ -63,6 +63,7 @@ class Helper
 
     public static function getTableName($class_name): string
     {
+        $class_name = str_replace('\\', '/', $class_name);
         if(self::strContains($class_name, '/')){
             $class_name = explode('/', $class_name);
             $class_name = end($class_name);
