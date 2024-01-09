@@ -1,12 +1,12 @@
 {
-    "name": "sgkrim37/remoute-model-client",
+    "name": "sgkrim37/remote-model-client",
     "version": "v0.1",
     "minimum-stability": "dev",
     "description": "Simple remote eloquent model client",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Sgkrim37\\RemouteModelClient\\": "src/"
+            "Sgkrim37\\RemoteModelClient\\": "src/"
         }
     },
     "authors": [
@@ -19,7 +19,8 @@
         "php": "^8.1",
         "ext-ctype": "*",
         "ext-mbstring": "*",
-        "doctrine/inflector": "^2.0"
+        "doctrine/inflector": "^2.0",
+        "ext-curl": "*"
     },
     "extra": {
         "branch-alias": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sgkrim37\RemouteModelClient;
+namespace Sgkrim37\RemoteModelClient;
 
 use Doctrine\Inflector\InflectorFactory;
 use Doctrine\Inflector\Language;

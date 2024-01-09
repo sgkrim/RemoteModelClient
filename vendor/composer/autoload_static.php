@@ -9,7 +9,7 @@ class ComposerStaticInitd6c7a97083ea8869998dac03d96b7a40
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
-            'Sgkrim37\\RemouteModelClient\\' => 28,
+            'Sgkrim37\\RemoteModelClient\\' => 27,
         ),
         'D' => 
         array (
@@ -18,7 +18,7 @@ class ComposerStaticInitd6c7a97083ea8869998dac03d96b7a40
     );
 
     public static $prefixDirsPsr4 = array (
-        'Sgkrim37\\RemouteModelClient\\' => 
+        'Sgkrim37\\RemoteModelClient\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
