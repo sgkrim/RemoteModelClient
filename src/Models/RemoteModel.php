@@ -31,7 +31,7 @@ class RemoteModel
             'args' => $arguments,
         ];
 
-        return self::class;
+        return new self::class;
     }
 
     function __call(string $name, array $arguments){
