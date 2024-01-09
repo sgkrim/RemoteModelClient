@@ -1,0 +1,19 @@
+{
+    "name": "sgkrim37/remoute-model-client",
+    "description": "Simple remote eloquent model client",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sgkrim37\\RemouteModelClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SGKrim37",
+            "email": "smedia.developer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    }
+}
