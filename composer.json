@@ -4,6 +4,7 @@
     "minimum-stability": "dev",
     "description": "Simple remote eloquent model client",
     "license": "MIT",
+    "keywords": ["database", "db", "api"],
     "autoload": {
         "psr-4": {
             "Sgkrim37\\RemoteModelClient\\": "src/"
@@ -24,7 +25,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1-dev"
+            "dev-main": "0.1-dev"
         }
     }
 }
